@@ -19,6 +19,7 @@ def dfs(x,y):
             dfs(nx,ny)
         return True 
     return False
+
 cnt = 0
 for i in range(n):
     for j in range(m):

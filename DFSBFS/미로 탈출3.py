@@ -13,9 +13,7 @@ for i in range(n):
     
 
 def bfs(x,y):
-
     queue = deque([(x,y)])
-    
     while queue:
         x,y = queue.popleft()
         for i in range(4):

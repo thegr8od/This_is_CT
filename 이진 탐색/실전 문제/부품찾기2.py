@@ -11,9 +11,9 @@ def binary_search(target,data,start,end):
         if data[mid] == target:
             return True
         elif data[mid] > target:
-            mid = end - 1
+            end = mid - 1
         else:
-            mid = start + 1
+            start = mid + 1
     return False
 
 for i in req:
